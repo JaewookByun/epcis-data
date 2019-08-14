@@ -4,7 +4,7 @@
 >
 > ### Data from public beef was processed to extract useful event data and stored in xml.
 >
->> ### _Data Provision : [FoodSafetyKorea](http://www.foodsafetykorea.go.kr)_
+>> ### _Data Provision : FoodSafetyKorea_ [Link](http://www.foodsafetykorea.go.kr)
 >
 >> ### _Project Tool(Language) : java_
 
@@ -30,4 +30,4 @@
 #### - Transformer(Transformer, TransformerFactory) : Creates a new document in destination with the value you set
 
 * * *
-### The data stored in our HomePage : [You can check this data in this page](http://210.93.116.66/epcis/GEODES/)
+### The data stored in our HomePage [Link](http://210.93.116.66/epcis/GEODES/)
