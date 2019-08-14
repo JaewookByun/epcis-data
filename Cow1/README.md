@@ -10,10 +10,15 @@
 * * *
 ## Content
 > This data includes the following :
+>
 >> Item Number : ENTTY_IDNTFC_NO
+>
 >> Company : SLAU_PLC_NM
+>
 >> Date : SLAU_YMD
+>
 >> Location : ADDR
+>
 >> etc
 
 ## Working Process
