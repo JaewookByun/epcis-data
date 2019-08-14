@@ -1,32 +1,33 @@
 ## EPCIS : OPEN DATA PROJECT
 * * *
-> #### ÀÌ°ÍÀº ¼Ò°í±âÀÇ »ý»ê ¹× µµÃà¿¡ °ü·ÃÇÑ µ¥ÀÌÅÍ¸¦ EPCISDocument¸¦ ÂüÁ¶ÇÏ¿© ¸ðµ¨¸µÇÑ ÇÁ·ÎÁ§Æ®ÀÌ´Ù.
+> #### This is a project that models data on the production and slaughter of beef by reference to the EPCISDocument.
 >
-> #### °ø°³ÀûÀÎ ¼Ò°í±âÀÇ µ¥ÀÌÅÍ¸¦ °¡°øÇÏ¿© ¾µ¸ðÀÖ´Â ÀÌº¥Æ® µ¥ÀÌÅÍ¸¦ ÃßÃâÇÏ°í, ÀÌ¸¦ xmlÈ­ ÇÏ¿© ÀúÀåÇÏ¿´´Ù.
+> #### Data from public beef was processed to extract useful event data and stored in xml.
 >
->> #### __¿ÀÇÂ µ¥ÀÌÅÍ Á¦°ø : FoodSafetyKorea (link - www.foodsafetykorea.com)__
+>> #### __Data Provision : FoodSafetyKorea (link - www.foodsafetykorea.com)__
 >
->> #### __ÇÁ·ÎÁ§Æ® Åø(Language) : java__
+>> #### __Project Tool(Language) : java__
 * * *
 ## Content
-ÇØ´ç µ¥ÀÌÅÍ´Â ´ÙÀ½°ú °°Àº ³»¿ëÀ» Æ÷ÇÔÇÏ°í ÀÖ´Ù.
-Àå¼Ò : ~
-½Ã°£ : ~
-À§Ä¡ : ~
-etc
+> This data includes the following :
+>> Item Number : ENTTY_IDNTFC_NO
+>> Company : SLAU_PLC_NM
+>> Date : SLAU_YMD
+>> Location : ADDR
+>> etc
 
 ## Working Process
-¸ÕÀú, °ø°³µÈ µ¥ÀÌÅÍÀÇ ¿ä¼Ò¸¦ ÆÄ¾ÇÇÑ´Ù.
-ÀÌÈÄ ¾µ¸ðÀÖ´Â µ¥ÀÌÅÍÀÇ ¿ä¼ÒµéÀ» ÀûÁ¤ business Ç×¸ñµé¿¡ ´ëÀÔÇÏ¿© xml·Î ÀúÀåÇÑ´Ù.
-¿ÜºÎ ¸Þ¼Òµå
- - Domparser(DocumentBuilder, DocumentBuilderFactory) : source·ÎºÎÅÍ ÆÄÀÏÀ» ÀÐ¾î¿Í ´Ù·ê ¼ö ÀÖ°Ô ÇØÁÜ
- - Element : °¢ µ¥ÀÌÅÍÀÇ ¿ä¼ÒµéÀ» ´Ù·ê ¼ö ÀÖ°Ô ÇØÁÜ
- - Transformer(Transformer, TransformerFactory) : ¼³Á¤ÇØÁØ °ªÀ¸·Î destination¿¡ »õ·Î¿î ¹®¼­¸¦ ¸¸µé¾îÁÜ
+ë¨¼ì €, ê³µê°œëœ ë°ì´í„°ì˜ ìš”ì†Œë¥¼ íŒŒì•…í•œë‹¤.
+ì´í›„ ì“¸ëª¨ìžˆëŠ” ë°ì´í„°ì˜ ìš”ì†Œë“¤ì„ ì ì • business í•­ëª©ë“¤ì— ëŒ€ìž…í•˜ì—¬ xmlë¡œ ì €ìž¥í•œë‹¤.
+ì™¸ë¶€ ë©”ì†Œë“œ
+ - Domparser(DocumentBuilder, DocumentBuilderFactory) : sourceë¡œë¶€í„° íŒŒì¼ì„ ì½ì–´ì™€ ë‹¤ë£° ìˆ˜ ìžˆê²Œ í•´ì¤Œ
+ - Element : ê° ë°ì´í„°ì˜ ìš”ì†Œë“¤ì„ ë‹¤ë£° ìˆ˜ ìžˆê²Œ í•´ì¤Œ
+ - Transformer(Transformer, TransformerFactory) : ì„¤ì •í•´ì¤€ ê°’ìœ¼ë¡œ destinationì— ìƒˆë¡œìš´ ë¬¸ì„œë¥¼ ë§Œë“¤ì–´ì¤Œ
 
-##Á¦°ø µ¥ÀÌÅÍÀÇ ¿ä¼Òµé
+## The elements of data
 ENTTY_IDNTFC_NO --> 
-SLAU_PLC_NM -->
-SLAU_YMD -->
-ADDR -->
-SNTT_PRSEC_PASS_ENNC -->
+SLAU_PLC_NM --> 
+SLAU_YMD --> 
+ADDR --> 
+SNTT_PRSEC_PASS_ENNC --> 
 
