@@ -1,5 +1,5 @@
 ## EPCIS : OPEN DATA PROJECT
-* * *
+
 > #### This is a project that models data on the production and slaughter of beef by reference to the EPCISDocument.
 >
 > #### Data from public beef was processed to extract useful event data and stored in xml.
@@ -7,19 +7,19 @@
 >> #### __Data Provision : FoodSafetyKorea (link - www.foodsafetykorea.com)__
 >
 >> #### __Project Tool(Language) : java__
-* * *
+
 ## Content
 > This data includes the following :
 >
->> Item Number : ENTTY_IDNTFC_NO
+>> epc : ENTTY_IDNTFC_NO
 >
->> Company : SLAU_PLC_NM
+>> company : SLAU_PLC_NM
 >
->> Date : SLAU_YMD
+>> eventTime : SLAU_YMD
 >
->> Location : ADDR
+>> companyAddress : ADDR
 >
->> etc
+>> passInspection : SNTT_PRSEC_PASS_ENNC
 
 ## Working Process
 먼저, 공개된 데이터의 요소를 파악한다.
@@ -28,11 +28,3 @@
  - Domparser(DocumentBuilder, DocumentBuilderFactory) : source로부터 파일을 읽어와 다룰 수 있게 해줌
  - Element : 각 데이터의 요소들을 다룰 수 있게 해줌
  - Transformer(Transformer, TransformerFactory) : 설정해준 값으로 destination에 새로운 문서를 만들어줌
-
-## The elements of data
-ENTTY_IDNTFC_NO --> 
-SLAU_PLC_NM --> 
-SLAU_YMD --> 
-ADDR --> 
-SNTT_PRSEC_PASS_ENNC --> 
-
