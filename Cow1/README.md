@@ -22,12 +22,12 @@
 >> passInspection : SNTT_PRSEC_PASS_ENNC
 
 # Working Process
-### First, the elements of the published data are identified.
-### Subsequently, elements of useful data are replaced with appropriate business items and stored in xml.
-### External method used
-#### - Domparser(DocumentBuilder, DocumentBuilderFactory) : Enables you to read and process files from the source
-#### - Element : Allows you to handle the elements of each data
-#### - Transformer(Transformer, TransformerFactory) : Creates a new document in destination with the value you set
+> ### First, the elements of the published data are identified.
+> ### Subsequently, elements of useful data are replaced with appropriate business items and stored in xml.
+> ### External method used
+>> #### - Domparser(DocumentBuilder, DocumentBuilderFactory) : Enables you to read and process files from the source
+>> #### - Element : Allows you to handle the elements of each data
+>> #### - Transformer(Transformer, TransformerFactory) : Creates a new document in destination with the value you set
 
 * * *
 ### The data stored in our HomePage [Link](http://210.93.116.66/epcis/GEODES/)
