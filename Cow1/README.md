@@ -4,7 +4,7 @@
 >
 > ### Data from public beef was processed to extract useful event data and stored in xml.
 >
->> ### _Data Provision : [FoodSafetyKorea](http://www.foodsafetykorea.com)_
+>> ### _Data Provision : [FoodSafetyKorea](http://www.foodsafetykorea.go.kr)_
 >
 >> ### _Project Tool(Language) : java_
 
