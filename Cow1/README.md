@@ -3,22 +3,16 @@
 > ### This is a project that models data on the production and slaughter of beef by reference to the EPCISDocument.
 >
 > ### Data from public beef was processed to extract useful event data and stored in xml.
->
 >> #### _Data Provision : FoodSafetyKorea_ [Link](http://www.foodsafetykorea.go.kr)
->
 >> #### _Project Tool(Language) : java_
 
 # Content
 > ### This data includes the following :
 >
 >> #### epc : ENTTY_IDNTFC_NO
->
 >> #### eventTime : SLAU_YMD
->
 >> #### company : SLAU_PLC_NM
->
 >> #### companyAddress : ADDR
->
 >> #### passInspection : SNTT_PRSEC_PASS_ENNC
 
 # Working Process
